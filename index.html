@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helados Caseros del Barrio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fefae0;
+            color: #333;
+        }
+        header {
+            background-color: #faedcd;
+            color: #6c584c;
+            text-align: center;
+            padding: 1rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #dda15e;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        section h2 {
+            color: #bc6c25;
+        }
+        .categories, .recipes, .about {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 1rem 0 0.5rem;
+            color: #6c584c;
+        }
+        .card p {
+            padding: 0 1rem 1rem;
+            font-size: 0.95rem;
+            color: #555;
+        }
+        footer {
+            background-color: #faedcd;
+            color: #6c584c;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Helados Caseros del Barrio</h1>
+        <p>Sabores auténticos del Ecuador, directo desde los barrios</p>
+    </header>
+    <nav>
+        <a href="#categories">Categorías</a>
+        <a href="#about">Nuestra Historia</a>
+        <a href="#recipes">Recetas</a>
+        <a href="#contact">Contáctanos</a>
+    </nav>
+    <section id="categories">
+        <h2>Categorías de Helados</h2>
+        <div class="categories">
+            <div class="card">
+                <img src="https://imag.bonviveur.com/helado-de-oreo.jpg" alt="Helado de Oreo">
+                <h3>Helado de Oreo</h3>
+                <p>La combinación perfecta entre galletas y crema. Un clásico que encanta a todos.</p>
+            </div>
+            <div class="card">
+                <img src="https://www.trops.es/wp-content/uploads/2014/09/enhanced-buzz-7424-1394771042-4.jpg" alt="Helado de Aguacate">
+                <h3>Helado de Aguacate</h3>
+                <p>Un sabor cremoso y único, inspirado en la tradición ecuatoriana.</p>
+            </div>
+            <div class="card">
+                <img src="https://static.misionesonline.news/wp-content/uploads/2022/10/helados-frutas-1.jpg" alt="Helado de Frutas">
+                <h3>Helado de Frutas</h3>
+                <p>Sabores frescos de mora, guanábana, y más, hechos con frutas naturales.</p>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>Nuestra Historia</h2>
+        <p>Los helados caseros son parte de la esencia de los barrios ecuatorianos. Con ingredientes simples 
+        y mucho amor, estos sabores han conquistado generaciones.</p>
+    </section>
+    <section id="recipes">
+        <h2>Recetas Destacadas</h2>
+        <div class="recipes">
+            <div class="card">
+                <img src="https://i0.wp.com/recetaskwa.com/wp-content/uploads/2024/02/Helado-de-coco_1.jpg?resize=1200%2C1200&ssl=1" alt="Receta Helado de Coco">
+                <h3>Helado de Coco</h3>
+                <p>Leche de coco fresca y trocitos de coco rallado para un sabor tropical.</p>
+            </div>
+            <div class="card">
+                <img src="https://www.cocinatis.com/archivos/202306/helado-de-chocolate-1280x720x80xX.jpg" alt="Receta Helado de Chocolate">
+                <h3>Helado de Chocolate</h3>
+                <p>Hecho con cacao puro ecuatoriano, perfecto para los amantes del chocolate.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contáctanos</h2>
+        <p>¿Tienes preguntas o sugerencias? Escríbenos a <a href="mailto: thextroner201@gmail.com">thextroner201@gmail.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Unidad Educativa Palestina. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
